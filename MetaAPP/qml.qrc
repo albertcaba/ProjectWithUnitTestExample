@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qml/TabWidget.qml</file>
+        <file>images/qml-tabwidget-example.png</file>
+        <file>images/tab.png</file>
+        <file>qml/ModuleList.qml</file>
+        <file>qml/ConfigurationTab.qml</file>
+    </qresource>
+</RCC>
