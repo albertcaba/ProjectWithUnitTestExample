@@ -28,7 +28,6 @@ class MQTT_Manager : public QObject
 
    private:
       ConfigurationMQTT& mConfigMQTT;
-      QMqttClient mMQTTClient;
       QTimer m_timer; //#TODO: Only for test. Deltet!
 };
 

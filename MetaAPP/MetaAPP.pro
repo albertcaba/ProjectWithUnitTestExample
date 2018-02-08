@@ -1,7 +1,7 @@
 TARGET = MetaAPP
 TEMPLATE = app
 
-QT += quick qml testlib mqtt
+QT += quick qml testlib
 #QT += quick qml
 CONFIG += c++11
 
@@ -28,7 +28,6 @@ SOURCES += main.cpp \
     Modules/MQTT/messagesapp.cpp \
     Modules/app.cpp \
     Modules/appmessageparser.cpp \
-    Modules/MQTT/mqttmessageparser.cpp \
     Modules/MQTT/messagemqtt.cpp
 
 #QMLs
@@ -64,7 +63,6 @@ HEADERS += \
     Modules/MQTT/messagesapp.h \
     Modules/app.h \
     Modules/appmessageparser.h \
-    Modules/MQTT/mqttmessageparser.h \
     Modules/MQTT/messagemqtt.h
 
 DISTFILES += \

@@ -2,7 +2,6 @@
 #define MESSAGEMQTT_H
 
 #include <stdint.h>
-#include <QMqttMessage>
 #include <QVector>
 #include <QString>
 
